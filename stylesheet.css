@@ -4,12 +4,7 @@
  	background-color: #D2B48C;
  	text-align: center;
  	border-radius: 10px;
- 	color: #ffffff;
  }
-
-.searchBar{
-	color: #000000;
-}
 
  #game {
  	display: none;

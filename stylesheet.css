@@ -1,0 +1,28 @@
+ .headerArea{
+ 	width: 500px;
+ 	height:40px;
+ 	background-color: #D2B48C;
+ 	text-align: center;
+ 	border-radius: 10px;
+ 	color: #ffffff;
+ }
+
+.searchBar{
+	color: #000000;
+}
+
+ #game {
+ 	display: none;
+ }
+
+ img {
+ 	width: 150px;
+ 	margin: 10px 0;
+
+ }
+ #icon {
+ 	width: 75px;
+ }
+ div {
+ 	margin: 20px 0;
+ }

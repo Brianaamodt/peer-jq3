@@ -19,18 +19,16 @@ function searchCallback(results) {
 
 $(document).ready(function() {
 
-var value;
+	var value;
 	// Start the search here!
 	$("input").on("click", function (e) {
+		$(".mainList").empty()
 		value = $("#searchval").val();
-
 		search(value);
 		console.log(value);
 		e.preventDefault();
 	});
 	// search();
-
-
 
 });
 
@@ -51,5 +49,4 @@ function search(query){
 	        searchCallback(data.results);
 	    }
 	});
-
 }
